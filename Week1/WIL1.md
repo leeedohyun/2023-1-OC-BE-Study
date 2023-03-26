@@ -30,7 +30,7 @@ RESTful은 REST에 대한 원칙을 모두 준수하는 시스템을 의미한�
 ## REST
 REST는 RE(Representational), S(Status), T(Transfer)의 줄임말로, 자원(리소스)의 표현에 의한 상태(정보)를 전달하는 것을 의미한다. 말이 너무 어려운데, REST는 HTTP를 잘 활용하기 위한 원칙 또는 네트워크 상에서 클라이언트와 서버 사이의 통신 방식이라고 알고 있으면 된다. 그렇다면 REST는 HTTP를 어떻게 활용할까?
 
->자원(리소스): HTTP URI
+>자원(리소스): HTTP URI <br>
 상태(정보) 전달: HTTP Method
 
 ## REST가 필요한 이유
@@ -47,10 +47,10 @@ REST는 RE(Representational), S(Status), T(Transfer)의 줄임말로, 자원(리
 
 다음 4가지의 HTTP 메서드를 가지고 CRUD를 할 수 있다.
 
->Post: C(Create)
-Get: R(Read)
-Put/Patch: U(Update)
-Delete: D(Delete)
+>Post: C(Create) <br>
+Get: R(Read) <br>
+Put/Patch: U(Update) <br>
+Delete: D(Delete) <br>
 
 ## RESTful의 목적
 - 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것이다.
